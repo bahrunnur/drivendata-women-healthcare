@@ -130,11 +130,11 @@ def train():
     return clf
 
 
-def make_submission(clf, path='../my_submission.csv'):
+def make_submission(clf, path='my_submission.csv'):
     path = sys.argv[1] if len(sys.argv) > 1 else path
     X_test, ids = load_test_data()
 
-    sample = pd.read_csv('../data/SubmissionFormat.csv')
+    sample = pd.read_csv('data/SubmissionFormat.csv')
 
     y_prob = clf.predict_proba(X_test)
     preds = pd.DataFrame(y_prob, index=sample.id.values, columns=sample.columns[1:])
