@@ -1,5 +1,7 @@
 # Solution for DrivenData "Modeling Women's Health Care Decisions"
-This is my solution for that challenge. I ranked at **#14** with score of `0.2547` for public dataset, and got `0.2595` for private dataset. There is explanation embedded in the code, but soon I will publish my complete approaches.
+This is my solution for that challenge. I ranked at **#14** with score of `0.2547` for public dataset, and got `0.2595` for private dataset. 
+
+Read my approaches here: [http://bahrunnur.svbtle.com/modeling-womens-health-care-decisions](http://bahrunnur.svbtle.com/modeling-womens-health-care-decisions)
 
 ## Requirements
 - Numpy
